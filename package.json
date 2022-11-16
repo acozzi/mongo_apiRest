@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Api rest Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ale Cozzi",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2",
+    "node-fetch": "^3.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acozzi/mongo_apiRest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acozzi/mongo_apiRest/issues"
+  },
+  "homepage": "https://github.com/acozzi/mongo_apiRest#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
